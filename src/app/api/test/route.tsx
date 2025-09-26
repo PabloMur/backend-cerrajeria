@@ -1,6 +1,6 @@
 import { NextResponse } from "next/server";
 
-export function GET(){
+export function POST(){
   return NextResponse.json({
     message: "Hola Ratita"
   })
