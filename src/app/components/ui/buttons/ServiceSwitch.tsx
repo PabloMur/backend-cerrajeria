@@ -10,7 +10,7 @@ const ServiceSwitch = () => {
   useEffect(() => {
     const fetchEstado = async () => {
       try {
-        const res = await fetch("http://localhost:3000/api/service");
+        const res = await fetch("https://backend-cerrajeria.vercel.app/api/service");
         const data = await res.json();
         setServicioActivo(data.data?.servicio ?? false);
       } catch (err) {
