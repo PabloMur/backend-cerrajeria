@@ -26,7 +26,7 @@ const ServiceSwitch = () => {
     setLoading(true);
 
     try {
-      const res = await fetch("http://localhost:3000/api/service", { method: "PUT" });
+      const res = await fetch("https://backend-cerrajeria.vercel.app/api/service", { method: "PUT" });
       const data = await res.json();
       setServicioActivo(data.servicio);
     } catch (err) {
