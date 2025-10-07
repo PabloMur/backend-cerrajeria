@@ -1,6 +1,7 @@
 import Image from "next/image";
 import llaves from "../../public/llaves.jpg";
-import CustomButton from "./components/ui/buttons/CustomButton";
+import CustomButton from "../components/ui/buttons/CustomButton";
+import SignIn from "@/components/ui/buttons/sign-in";
 
 export default function Home() {
   return (
@@ -26,6 +27,7 @@ export default function Home() {
           </h1>
           <p className="text-white/90">Ingresá a tu cuenta para continuar</p>
           <CustomButton href="/dashboard">Ingresar</CustomButton>
+          <SignIn></SignIn>
         </div>
       </div>
     </div>

@@ -1,4 +1,4 @@
-import {Navbar} from "@/app/components/ui/Navbar";
+import {Navbar} from "@/components/ui/Navbar";
 const LoginPage = () =>{
     return (<div className="">
                 <Navbar />
